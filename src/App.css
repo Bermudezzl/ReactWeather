@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('C:\Users\Luisb\Pictures\Saved Pictures\Clima.jpg');
+  background-image: url('./ImagenFondo/Clima.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
