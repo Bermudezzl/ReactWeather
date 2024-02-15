@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('C:\Users\Luisb\Pictures\Saved Pictures\Clima.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-style: italic;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #0000ff;
+}
+
+#weather-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007FFF;
+  font-weight: bold;
+  font-style: italic;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007FFF;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.weather-info {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.weather-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-style: italic; /* Aplicar estilo cursiva */
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-style: italic; /* Aplicar estilo cursiva */
+}
